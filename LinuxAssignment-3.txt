@@ -1,0 +1,49 @@
+1. Create a file by name file100 and file111  in the current directory, change the permission for file to following
+
+	r=4
+	w=2
+	x=1      
+
+      a. rwx for user rw for group r for others.  u(r+w+x)g(r+w)o(r)=764
+      b. rw for user r for group and others.	644
+      c. rwx for all				777
+      d. rwx for user r for group and other	744
+      e. rw for user rw for group and r for other	664
+      Grant above permissions using  symbols to file100 and permissions using numeric values to file111.
+
+2.  Write a shell script to display the contents of file MoreCountries1.
+
+	create a file in gedit - write a code(command without $)
+	on terminal give command -bash filename
+
+3.  Accept name of a file from user and display the contents of file.
+
+	.sh file
+	
+	
+4.  Write a shell script to copy contents of one file into another. Accept file name  from user.
+
+
+5.  Write a shell utility which will print top 10 cpu consuming processes.
+
+	ps -eo pid,ppid,%cpu | head -n 11	
+
+6.  Write a shell utility to print top 10 memory consuming processes.
+
+		ps -eo pid,ppid,%mem | head -n 11
+
+7.  Write a shell utility to copy top n lines from a file into fileCopy.txt file. Accept number of lines and
+      filename  from user.
+
+		 head $filename -n $number fileCopy.txt
+
+8. Write a shell utility to  Count number of files and directories in your current directory.
+
+		
+
+9. Write a shell utility to print count of files of given extension. Accept extension from user.
+
+
+
+10. Write a shell utility to  Count number of files and directories in your current directory.
+11. Write a shell utility to print count of files of given extension. Accept extension from user.	

@@ -1,0 +1,30 @@
+Steps to install Ubuntu
+-----------------------
+
+1. Download Virtual Box
+2. Install Virtual Box
+3. Download Ubuntu(iso) file
+4. Open Virtual box
+5. Click on New Button
+6. Give some relevent name(eg. Ubuntu)
+7. give RAM size as 2GB min (2048 MB)
+8. Default Hard disk setting
+   (click on 'Create a Virtual HD now')
+9. Click on Default VDI
+10. Click NEXT
+11. Select Dynamically Allocated
+12. Size of HD (min 15GB)
+13. Create
+14. Select settings - storage - empty(under controller IDE)- 
+15. Click on CD icon
+16. Select chose a disk file(rt most side)
+17. Select ubuntu file (iso) and open
+    -ok
+    -start menu
+    -select ubuntu iso file
+    -start
+18. Two big images appear
+19. Select "Try Ubuntu"
+    *We are not going to select install
+    
+    
